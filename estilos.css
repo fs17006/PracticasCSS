@@ -1,0 +1,18 @@
+#element-titulo {
+  color:yellow;
+  background:black;
+}
+
+.boton {
+  color:black;
+  background: yellow;
+}
+
+.caja {
+  background:white;
+}
+
+.box-Comentar{
+  height: 25px;
+  width: 100px;
+}
