@@ -1,6 +1,13 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 #element-titulo {
   color:yellow;
-  background:black;
+  background:blue;
+  font-family:arial;
 }
 
 .boton {
@@ -9,10 +16,47 @@
 }
 
 .caja {
-  background:white;
+  background:yellow;
 }
 
 .box-Comentar{
   height: 25px;
   width: 100px;
+}
+
+.cuerpo{
+  background: black;
+}
+
+h2{
+  background: yellow;
+  font-family: arial,cursive;
+}
+
+p{
+  background: yellow;
+  font-family: arial;
+}
+
+#cara{
+  background: white;
+}
+
+.foto{
+  height: 250px;
+  width: 250px;
+}
+
+#element-para-foto{
+  color: black;
+  background: white;
+}
+
+.boton:hover{
+  background: blue;
+  color: white;
+}
+
+a:hover {
+  color:red;
 }
