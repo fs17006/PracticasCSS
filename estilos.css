@@ -1,8 +1,8 @@
 
 
 #element-titulo {
-  color:yellow;
-  background:blue;
+  color:blue;
+  background:yellow;
   font-family:arial;
 }
 
@@ -60,4 +60,28 @@ a:hover {
 .form-user{
   color:white;
   font-family: arial;
+}
+
+.section-1,.section-2{
+  text-align: center;
+  border-style:groove;
+  /*display:inline-flex;*/
+  width: 70vw;
+  margin:2px;
+}
+
+
+.costado{
+  margin: 1px;
+  border-style: groove;
+  /*display: inline;*/
+  width: 28vw;
+}
+
+.divcontenedor{
+  display: inline-flex;
+}
+
+a{
+  color: blue;
 }
