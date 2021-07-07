@@ -2,7 +2,7 @@
 
 #element-titulo {
   color:blue;
-  background:yellow;
+  background:#c29b61;
   font-family:arial;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .caja {
-  background:yellow;
+  background:#c29b61;
 }
 
 .box-Comentar{
@@ -21,16 +21,16 @@
 }
 
 .cuerpo{
-  background: black;
+  background: blue;
 }
 
 h2{
-  background: yellow;
+  background: #c29b61;
   font-family: arial,cursive;
 }
 
 p{
-  background: yellow;
+  background: #c29b61;
   font-family: arial;
 }
 
@@ -49,7 +49,7 @@ p{
 }
 
 .boton:hover{
-  background: blue;
+  background: red;
   color: white;
 }
 
@@ -83,5 +83,35 @@ a:hover {
 }
 
 a{
-  color: blue;
+  color: #efb810;
+}
+
+ul{
+  display: inline-flex;
+  padding: 5px;
+  margin: 0;
+}
+
+
+nav{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.iconos{
+  width: 25px;
+  height: 25px;
+  background: blue;
+  box-shadow: 1px,1px,1px,groove,white;
+}
+
+#diferente{
+  color: red;
+}
+
+#diferente:hover{
+  color: black;
 }
